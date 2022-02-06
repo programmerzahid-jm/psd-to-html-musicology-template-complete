@@ -1,0 +1,508 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* font family area */
+
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Nunito', sans-serif; */
+
+/* end of font family area */
+/* end of google font */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* banner section */
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.header-hero-area{
+    width: 100%;
+    height: 700px;
+    background-image: url(images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-navbar{
+    background-color: #303030;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.header-logo img{
+    width: 100px;
+}
+.header-menu{
+    font-family: 'Oswald', sans-serif;
+}
+.header-menu ul{
+    display: flex;
+}
+.header-menu ul li{
+    margin-right: 50px;
+    list-style: none;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffff;
+}
+.header-menu-icon i{
+    color: #ffff;
+}
+.hero-content{
+    margin-top: 210px;
+}
+.hero-content h1{
+    font-size: 125px;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    color: #ffff;
+    font-weight: 400;
+}
+.hero-content p{
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    color: #D1D1D1;
+    text-align: justify;
+}
+.hero-content-btn{
+    margin-top: 40px;
+}
+.hero-content-btn a{
+    padding: 15px 60px;
+    font-size: 25px;
+    background-color: #FF630B;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Oswald', sans-serif;
+}
+/* end of banner section */
+/* dance tour seciton */
+.dance_tour_area_wrapper{
+    background: url(images/dance\ tour\ shape.png),linear-gradient(#FF630B,#FF630B);
+    background-repeat: no-repeat;
+    background-position: -217% 195%;
+    background-size: 88%,cover;
+    padding-bottom: 70px;
+}
+.dance-area-heading h1{
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #ffff;
+    padding-top: 50px;
+}
+.dance-area-heading p{
+    text-align: center;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    padding-top: 8px;
+}
+.dance-card-area{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dance-card-area .box{
+    width: 350px;
+    height: 470px;
+    background-color: #2B2C2C;
+}
+.dance-card-area .box img{
+    width: 350px;
+    height: 350px;
+}
+.box h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 8px;
+    color: #ffff;
+    font-family: 'Oswald', sans-serif;
+}
+.box p{
+    text-align: center;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+}
+/* end of dance tour seciton */
+/* price plan area */
+.price_plan_area_wrapper{
+    width: 100%;
+    background: url(images/price\ area\ top\ shape.png),linear-gradient(#2A2B2B,#2A2B2B);
+    background-repeat: no-repeat;
+    background-position: -92% 113%;
+    padding-bottom: 70px;
+    position: relative;
+}
+.price_area_heading h1{
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    padding-top: 50px;
+}
+.price_area_heading p{
+    text-align: center;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    padding-top: 8px;
+}
+.price_card_area{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.price_card_area .card{
+    width: 350px;
+    height: 470px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #FF630B;
+    z-index: 1;
+}
+.card img{
+    margin-top: 50px;
+}
+.card h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: #ffff;
+    font-family: 'Oswald', sans-serif;
+}
+.card p{
+    text-align: center;
+    color: #ffff;
+    margin-top: 20px;
+    padding: 0px 30px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card .card_btn{
+    margin-top: 30px;
+}
+.card .card_btn a{
+    padding: 12px 100px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #2A2B2B;
+}
+.price_area_btm_shape{
+    position: absolute;
+    width: 50%;
+    top: 29%;
+    left: 50%;
+}
+.price_area_btm_shape img{
+    width: 100%;
+}
+/* end of price plan area */
+/* amazing dance area */
+.amazing_dance_area{
+    width: 100%;
+    height: 925px;
+    background: url(images/shape\ azazing\ area\ bottom.png),linear-gradient(#FF630B,#FF600B);
+    background-repeat: no-repeat;
+    background-position: 133% -870%;
+}
+.dance_area_wrapper{
+    display: flex;
+    align-items: center;
+}
+.dance_area_left{
+    flex: 1;
+}
+.dance_area_left img{
+    width: 100%;
+    height: 925px;
+}
+.dance_area_right{
+    flex: 1;
+}
+.dance_area_right h1{
+    font-size: 75px;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-left: 82px;
+}
+.dance_area_right p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    color: #ffffff;
+    padding: 0px 80px;
+}
+.dance_area_right_btn{
+    margin: 50px 0px 0px 82px;
+}
+.dance_area_right_btn a{
+    padding: 15px 100px;
+    background-color: #2B2C2C;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+/* end of amazing dance area */
+/* best dance area */
+.best_dance_area{
+    width: 100%;
+    height: 925px;
+    background: url(images/shape\ azazing\ area\ bottom.png),linear-gradient(#FF630B,#FF600B);
+    background-repeat: no-repeat;
+    background-position: 133% -870%;
+}
+.best_dance_wrapper{
+    display: flex;
+    align-items: center;
+}
+.best_dance_left{
+    flex: 1;
+}
+.best_dance_right img{
+    width: 100%;
+    height: 925px;
+}
+.best_dance_right{
+    flex: 1;
+}
+.best_dance_left h1{
+    font-size: 75px;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-left: 82px;
+}
+.best_dance_left p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    color: #ffffff;
+    padding: 0px 80px;
+}
+.best_dance_right_btn{
+    margin: 50px 0px 0px 82px;
+}
+.best_dance_right_btn a{
+    padding: 15px 100px;
+    background-color: #2B2C2C;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+/* end of best dance area */
+/* statistics area */
+.statistics_area_wrapper{
+    width: 100%;
+    height: 500px;
+    background-color: #2B2C2C;
+}
+.statistics_area_heading{
+    padding-top: 50px;
+    text-align: center;
+}
+.statistics_area_heading h1{
+    font-size: 75px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+.statistics_area_heading p{
+    color: #ffffff;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.statistics_box_area{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.statistics_box_area .box{
+    width: 300px;
+    height: 200px;
+}
+.statistics_box_area .box h1{
+    font-size: 45px;
+    margin-top: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+.statistics_box_area .box p{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+/* end of statistics area */
+/* about me area */
+.about_me{
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(#9e18068e,#9e18068e),url(images/about\ me\ bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about_me_content{
+    padding: 380px 0px;
+    text-align: center;
+}
+.about_me_content p{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+.about_me_content h1{
+    margin-top: 20px;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+}
+/* end of about me area */
+/* subscirbe area */
+.subscribe_zone{
+    width: 100%;
+    height: 400px;
+    background: url(images/sub\ shape\ one.png),url(images/sub\ shape\ two.png),linear-gradient(#FF630B,#FF630B);
+    background-repeat: no-repeat;
+    background-size: 70%,70%,cover;
+    background-position: -101% 21%,167% 70%;
+}
+.subscribe_txt{
+    text-align: center;
+}
+.subscribe_txt h1{
+    font-size: 75px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-top: 50px;
+}
+.subscribe_txt p{
+    line-height: 25px;
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.subscribe{
+    position: relative;
+}
+.subscribe input{
+    margin-top: 20px;
+    padding: 0px 15px;
+    width: 450px;
+    height: 40px;
+    outline: none;
+}
+::placeholder{
+    padding: 0px 8px;
+    text-transform: capitalize;
+}
+.subscribe a{
+    padding: 11px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #303030;
+    margin-left: -5px;
+}
+/* end of subscirbe area */
+/* footer area */
+.footer_wrapper{
+    width: 100%;
+    height: 450px;
+    background-color: #303030;
+}
+.footer_area{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding-top: 100px;
+}
+.footer_left{
+    width: 40%;
+    padding: 0px 20px;
+}
+.footer_left h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.footer_left p{
+    text-align: justify;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+.footer_left_icon{
+    margin: 15px -7px;
+}
+.footer_left_icon i{
+    margin: 5px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.footer_right{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_right .vertical_menu h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 15px;
+}
+.vertical_menu ul li{
+    list-style: none;
+    line-height: 25px;
+}
+.vertical_menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+.copyright{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: center;
+    background-color: #000000;
+}
+/* end of footer area */
+
